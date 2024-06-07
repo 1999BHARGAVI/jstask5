@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task5</title>
+  </head>
+  <body>
+    <h1>js task5</h1>
+
+    <script>
+      /*write a program to print tables 3 and 4*/
+      var a = +prompt("enter the table number:");
+      for (i = 1; i <= 10; i++) {
+        console.log(a + "*" + i + "=" + a * i);
+        document.writeln(a + "*" + i + "=" + a * i + "<br>");
+      }
+
+      /*write a program to print even number 0 to 10*/
+      var b = +prompt("enter the number:");
+      for (i = 0; i <= b; i++) {
+        if (i % 2 == 0) {
+          console.log("it is  even number:" + i);
+          document.writeln("it is even number:" + i + "<br>");
+        }
+      }
+
+      /* write a program reverse a even numbers */
+      var c = prompt("enter the number:");
+      rev = "";
+      for (i = 0; i < c; i++) {
+        if (i % 2 == 0) {
+          rev = " " + i + rev;
+        }
+      }
+      document.writeln(rev);
+      console.log(rev);
+
+      /*write a program to print 0 t0 10 nd 10 to 0 numbers*/
+      var d = +prompt("enter the numbers:");
+      for (i = 0; i <= d; i++) {
+        console.log(i);
+      }
+
+      /*write a program  to print number 10 to 0*/
+      var e = +prompt("enter the number:");
+      for (i = e; i >= 0; i--) {
+        console.log(i);
+      }
+
+      /*prdedict out put*/
+      var a = 10;
+      while (a < 20) {
+        a++;
+        console.log(a);
+      }
+      /*predict out put*/
+      var a = 0;
+      while (a < 20) {
+        a += 3;
+        console.log(a);
+        a++;
+      }
+    </script>
+  </body>
+</html>
